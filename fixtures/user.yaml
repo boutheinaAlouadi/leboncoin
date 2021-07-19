@@ -1,0 +1,7 @@
+# User.yaml
+App\Entity\user:
+  user{1..100}:
+    email (unique): '<email()>'
+    password: '\$2y\$13\$Tsr9dX.hSbP.82kgI6i55u978yzvYiskbs5FS1jVLOpeHxDytqhgi'    #1234
+    firstName: '<firstName()>'
+    lastName: '<lastName()>'

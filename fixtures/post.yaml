@@ -1,0 +1,7 @@
+App\Entity\publication:
+  publication{1..50}:
+    title: '<sentence(5, true)>'
+    description: '80%? <paragraphs(2, true)>'
+    date_publication: '<dateTimeThisMonth()>'
+    file: '/photo/<randomElement(["1.jpg","2.jpg","3.jpg"])>'
+    owner: '@user*'
